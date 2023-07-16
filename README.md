@@ -38,7 +38,7 @@ In **DREAM5 challenge**, the dataset  comprises three main files:
 - Retrieve the code
 
 ```
-git clone https://github.com/DuaaAlawad/EGRC.git
+git clone https://github.com/DuaaAlawad/EGRC_tool.git
 ```
 
 ## Demo
