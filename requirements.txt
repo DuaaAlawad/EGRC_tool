@@ -1,0 +1,9 @@
+numpy==1.21.6
+torch==1.12.1
+scipy == 1.5.2
+scikit-learn == 0.24.0
+tf-geometric == 0.1.4
+matplotlib == 3.5.2
+tqdm == 4.31.1
+networkx == 2.5
+gensim == 3.8.0
