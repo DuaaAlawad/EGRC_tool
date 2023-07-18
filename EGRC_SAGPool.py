@@ -1,4 +1,4 @@
-wseed_value= 0
+seed_value= 0
 import os
 os.environ['PYTHONHASHSEED']=str(seed_value)
 import random
