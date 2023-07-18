@@ -61,8 +61,6 @@ conda create -n EGRCEnv python=3.7.9 pip
 conda activate EGRCEnv
 conda install -c anaconda tensorflow-gpu
 pip install -r requirements.txt
-python EGRC_SAGpool.py
-
 ```
 
 python EGRC_SAGpool.py
