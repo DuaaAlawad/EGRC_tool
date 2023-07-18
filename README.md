@@ -84,7 +84,7 @@ poetry install
 poetry run python EGRC_SAGpool.py
 ```
 
-Finally, check **output** folder for results. The output directory contains the prob folder, which contains the importance scores in CSV files. In addition, there is a folder holding the same name as input data that contains  The OutputResults.txt file showing the results in AUROC and AUPR.
+Finally, check **output** folder for results. The output directory contains the prob folder, which contains the importance scores in CSV files. 
 
 
 ## Authors
