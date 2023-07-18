@@ -718,13 +718,12 @@ if __name__ == "__main__":
   
 #    #=========================================================== Writing files============================================
   
-    # create the Probab files as CSV files
+        # create the Probab files as CSV files
     first_line = first_line.strip('\n')
     second_line = second_line.strip('\n')
     third_line = third_line.strip('\n')
     
- 
-    path = './Output/MinCutPooling/probab'
+    path = first_line+'/Output/MinCutPooling/'+second_line+'/probab'
 
     # check whether directory already exists
     if not os.path.exists(path):
@@ -732,6 +731,15 @@ if __name__ == "__main__":
         print("Folder %s created!" % path)
     else:
         print("Folder %s already exists" % path)
+        
+    path_test = first_line+'/Output/MinCutPooling/'+third_line+'/probab'
+
+    # check whether directory already exists
+    if not os.path.exists(path_test):
+        os.makedirs(path_test)
+        print("Folder %s created!" % path_test)
+    else:
+        print("Folder %s already exists" % path_test)
     
     
     
