@@ -690,6 +690,17 @@ if __name__ == "__main__":
     first_line = first_line.strip('\n')
     second_line = second_line.strip('\n')
     third_line = third_line.strip('\n')
+    
+
+    path = './Output/DiffPooling/probab'
+
+    # check whether directory already exists
+    if not os.path.exists(path):
+        os.makedirs(path)
+        print("Folder %s created!" % path)
+    else:
+        print("Folder %s already exists" % path)
+    
     pooling_path1 =first_line+'/Output/DiffPooling/'+third_line+'/'
     probab_path1 = os.path.join(pooling_path1)
     probab_path1=probab_path1.strip()
