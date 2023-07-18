@@ -46,7 +46,8 @@ git clone https://github.com/DuaaAlawad/EGRC_tool.git
 To run the program, first, set the input path in the input.txt file. Here is a sample input file from DREAM5 E-coli Dataset.
 
 ```
-/home/dmalawad/Research/EGRC
+/home/dmalawad/Research/EGRC_tool
+data4
 data3
 ```
 
@@ -76,7 +77,7 @@ To configure your current shell run `source $HOME/.poetry/env`
 ```
 
 ``` 
-cd EGRC
+cd EGRC_tool
 poetry install
 poetry run python EGRC.py
 ```
