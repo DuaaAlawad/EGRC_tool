@@ -61,9 +61,10 @@ conda create -n EGRCEnv python=3.7.9 pip
 conda activate EGRCEnv
 conda install -c anaconda tensorflow-gpu
 pip install -r requirements.txt
+python EGRC_SAGpool.py
+
 ```
 
-python EGRC_SAGpool.py
 
 
 ### Option 2 :  Use poetry to setup the virutal environment with conda
@@ -80,7 +81,7 @@ To configure your current shell run `source $HOME/.poetry/env`
 ``` 
 cd EGRC_tool
 poetry install
-poetry run python EGRC.py
+poetry run python EGRC_SAGpool.py
 ```
 
 Finally, check **output** folder for results. The output directory contains the prob folder, which contains the importance scores in CSV files. In addition, there is a folder holding the same name as input data that contains  The OutputResults.txt file showing the results in AUROC and AUPR.
