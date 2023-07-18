@@ -71,7 +71,7 @@ sys.path.append(os.path.abspath(first_line))
 import torch
 device = torch.device('cuda')
 import pandas as pd
-sys.path.append(os.path.abspath('/home/dmalawad/Research/EGRC_v2/software/node2vec/src'))
+sys.path.append(os.path.abspath(first_line+'/software/node2vec/src'))
 from node2vec import *
 
 sys.path.append(os.path.abspath(first_line))
