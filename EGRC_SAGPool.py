@@ -669,10 +669,24 @@ if __name__ == "__main__":
   
 #    #=========================================================== Writing files============================================
   
+  
+  
+  
+  
     # create the Probab files as CSV files
     first_line = first_line.strip('\n')
     second_line = second_line.strip('\n')
     third_line = third_line.strip('\n')
+    
+    path = './Output/SAGPooling/probab'
+
+    # check whether directory already exists
+    if not os.path.exists(path):
+        os.makedirs(path)
+        print("Folder %s created!" % path)
+    else:
+        print("Folder %s already exists" % path)
+  
     pooling_path1 =first_line+'/Output/SAGPooling/'+third_line+'/'
     probab_path1 = os.path.join(pooling_path1)
     probab_path1=probab_path1.strip()
