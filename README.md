@@ -1,4 +1,4 @@
-#   EGRC: Effective inferring Gene Regulatory network using graph convolution network with SAGpooling layer.
+#   Enhanced Graph Representation Convolution: Effective Inferring Gene Regulatory Network Using Graph Convolution Network with Self-Attention Graph Pooling Layer
 
 
 ### Table of Content
